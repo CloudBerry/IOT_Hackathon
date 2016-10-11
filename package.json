@@ -1,0 +1,22 @@
+{
+  "name": "iot_hackathon",
+  "version": "1.0.0",
+  "description": "IOT_Hackathon with Computas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudBerry/IOT_Hackathon.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CloudBerry/IOT_Hackathon/issues"
+  },
+  "homepage": "https://github.com/CloudBerry/IOT_Hackathon#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
