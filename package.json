@@ -1,22 +1,29 @@
 {
-  "name": "iot_hackathon",
+  "name": "sensortag-gettingstarted",
   "version": "1.0.0",
-  "description": "IOT_Hackathon with Computas",
-  "main": "index.js",
+  "description": "An example of how to use the Sandeep Mistry's TI SensorTag library.",
+  "main": "example.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CloudBerry/IOT_Hackathon.git"
+    "url": "git+https://github.com/mehmandarov/sensortag-gettingstarted.git"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CloudBerry/IOT_Hackathon/issues"
-  },
-  "homepage": "https://github.com/CloudBerry/IOT_Hackathon#readme",
   "dependencies": {
-    "express": "^4.14.0"
-  }
+    "express": "^4.14.0",
+    "sensortag": "1.2.2",
+    "socket.io-client": "1.4.5"
+  },
+  "keywords": [
+    "sensortag",
+    "ti",
+    "bluetooth"
+  ],
+  "author": "Computas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehmandarov/sensortag-gettingstarted/issues"
+  },
+  "homepage": "https://github.com/mehmandarov/sensortag-gettingstarted#readme"
 }
